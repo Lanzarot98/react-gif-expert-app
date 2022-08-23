@@ -21,7 +21,7 @@ export const useFetchGifs = ( category ) => {
 
   return {
     images,
-    isLoading, // da lo mismo si llamamos isLoading: isLoading
+    isLoading, // da lo mismo si llamamos isLoading: isLoading esto da verdadero pues es lo que esta por default
   }
 }
 
